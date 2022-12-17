@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Gothic_A1;
+  src: url('./assets/fonts/Gothic_A1/GothicA1-Regular.ttf');
+}
+
+@font-face {
+  font-family: Gothic_A1_black;
+  src: url('./assets/fonts/Gothic_A1/GothicA1-Black.ttf');
+}
+
+@font-face {
+  font-family: Gothic_A1_bold;
+  src: url('./assets/fonts/Gothic_A1/GothicA1-Bold.ttf');
+}
+
 :root {
   font-family: Calibri, Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
