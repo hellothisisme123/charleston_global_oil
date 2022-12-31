@@ -11,12 +11,14 @@ import nav_item from './nav_item.vue'
                 Charleston Global Oil
             </span>
         </div>
-        <nav_item>About</nav_item>
-        <nav_item>Shop</nav_item>
-        <nav_item>Pricing</nav_item>
-        <nav_item>Nutrition</nav_item>
-        <nav_item>Prepare</nav_item>
-        <nav_item>Safety</nav_item>
+        <nav_item page="about"    ></nav_item>
+        <nav_item page="shop"     ></nav_item>
+        <nav_item page="pricing"  ></nav_item>
+        <nav_item page="nutrition"></nav_item>
+        <nav_item page="prepare"  ></nav_item>
+        <nav_item page="safety"   ></nav_item>
+    <router-view></router-view>
+
     </div>
 </template>
 
